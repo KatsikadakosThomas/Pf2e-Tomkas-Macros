@@ -11,8 +11,19 @@
       "esmodules":["scripts/main.js"],
       "url":"https://github.com/KatsikadakosThomas/PF2E-macro-helpers",
       "system": ["pf2e"],
-      "manifest": "https://path-to-your-module/module.json",
-      "download": "https://path-to-your-module/module.zip"
-
+      "manifest": "https://github.com/KatsikadakosThomas/Pf2e-Tomkas-Macros/blob/main/module.json",
+      "download": "https://github.com/KatsikadakosThomas/Pf2e-Tomkas-Macros/archive/refs/heads/main.zip",
+      "relationships": {
+		"requires": [
+			{
+				"id": "jb2a_patreon",
+				"type": "module"
+			},
+            {
+				"id": "portal-lib",
+				"type": "module"
+			}
+		]
+	}
 
  }
