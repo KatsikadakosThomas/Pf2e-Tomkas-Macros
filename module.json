@@ -5,10 +5,14 @@
     "author":"tomka",
     "version":"1.0.0",
     "compatibility": {
-        "minimum": "10",
-        "verified": "11"
+        "minimum": "12",
+        "verified": "12"
       },
-      "esmodules":["scripts/module.js"],
+      "esmodules":["scripts/main.js"],
       "url":"https://github.com/KatsikadakosThomas/PF2E-macro-helpers",
-      "system": ["pf2e"]
+      "system": ["pf2e"],
+      "manifest": "https://path-to-your-module/module.json",
+      "download": "https://path-to-your-module/module.zip"
+
+
  }
