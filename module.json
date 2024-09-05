@@ -1,0 +1,14 @@
+{   "id":"Pf2e-Tomkas-Macros",
+    "name":"Pf2e-Tomkas-Macros",
+    "title":"Pf2e Tomka's Macros",
+    "description":"A foundry module of a lidrary of functions that I find helpfull and use for my macros all the time",
+    "author":"tomka",
+    "version":"1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11"
+      },
+      "esmodules":["scripts/module.js"],
+      "url":"https://github.com/KatsikadakosThomas/PF2E-macro-helpers",
+      "system": ["pf2e"]
+ }
